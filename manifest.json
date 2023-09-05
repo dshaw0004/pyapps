@@ -1,0 +1,23 @@
+{
+	"short_name": "PyApps",
+	"name": "PyApps",
+	"icons": [
+		{
+			"src": "./src/components/static/pyapps_512.jpeg",
+
+			"sizes": "512x512"
+		},
+	
+		{
+			"src": "./src/components/static/pyapps_192.jpeg",
+			"sizes": "192x192"
+		}
+	],
+	"id": "/pyapps",
+	"start_url": ".",
+	"background_color": "#fff",
+	"display": "standalone",
+	"theme_color": "#fff",
+
+	"description": "Download different types of windows app for free."
+}

@@ -1,0 +1,31 @@
+.primary-header {
+    background-color: red;
+}
+
+
+header.primary-header div.ham-icon-container nav.primary-nav {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  background-color: rgba(200,200,255,.5);
+  height: 100dvh;
+  height: 100vh;
+  overflow-x: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+    left: 70%;
+    bottom: 0;
+  transition: transform 1s;
+   transform: scaleX(0);
+    transform-origin: right;
+}
+
+header.primary-header div.ham-icon-container nav.primary-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header.primary-header div.ham-icon-container nav.primary-nav ul li {
+  list-style: none;
+}

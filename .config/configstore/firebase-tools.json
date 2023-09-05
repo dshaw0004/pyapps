@@ -1,0 +1,45 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1686323439147
+	},
+	"usage": true,
+	"analytics-uuid": "0085518c-8604-41df-b651-bceaf855b88a",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "110974235476569223841",
+		"email": "ds6424063@gmail.com",
+		"email_verified": true,
+		"at_hash": "PFV5tYpfIkCHSSTipmqYsw",
+		"iat": 1685281126,
+		"exp": 1685284726
+	},
+	"tokens": {
+		"expires_at": 1686327038121,
+		"refresh_token": "1//0gdMQlhJdiuAhCgYIARAAGBASNwF-L9Ir98Dk5gmqJQkvrAugKKd4ljtz11VCGjhsr0sdgJ6PnDS37xGsUGUlodzAMYUeMZJV1hg",
+		"scopes": [],
+		"access_token": "ya29.a0AWY7Cklb3P0rYp582kXdOMp9EWW-Zkk_1kc7-SoXxKehppUgtt4jjTvAHxEg4lJUrIkNsWbPL3g9OF1E-XaGKNTNbiGFqgjTt67ik4Tn4e-oWCVK0d2WcB9FGlysLL7bwZmrkJ13TvYWd2m8B5C0vvSqmsLTwaD-ytbsygaCgYKATISARMSFQG1tDrpP6dfIu2MpfIdqDbXLkUd2w0173",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/userinfo.email openid",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1YmE5MzEzZmQ3YTdkNGFmYTg0ODg0YWJjYzg0MDMwMDQzNjMxODAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwOTc0MjM1NDc2NTY5MjIzODQxIiwiZW1haWwiOiJkczY0MjQwNjNAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJrcU9XdU5jM2lPUUxhbXZMUmZKRXhnIiwiaWF0IjoxNjg2MzIzNDM5LCJleHAiOjE2ODYzMjcwMzl9.ETxnGuL9jrpa19u6HeYMJEttmyxmHzm89-AqjLPCwoHTjRVUPTygxsKf8qqv5YgPjiP3ifblpmdjHU3pwX0aw6zr0fG5OJmNWJdMDaUjbPMg9AQBlIHq7XNdJnhGYgvw5ZhGGqLHxPU7GvxwsDCEs7THjjWPopW7KmuF9V9Zwegc0TYQZQDG_wKs5aK_axFkNe0bNnBrFgr6NBHqv_d-bFSLTnKXWEBNouv7R7yiDwUlcFw1fIXEH1yngbQ23mCZE7t-8QTkH2baHcbaCneww2OeRGEhi1hbyyJ8KCmgeKWyZ78Ti-TC212x4b7GObJuHFRw5LNVKKkAXRX3c8fWCQ"
+	},
+	"loginScopes": [
+		"email",
+		"openid",
+		"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"https://www.googleapis.com/auth/firebase",
+		"https://www.googleapis.com/auth/cloud-platform"
+	],
+	"activeProjects": {
+		"/home/runner/pyapps": "pythons-apps-by-ds"
+	}
+}

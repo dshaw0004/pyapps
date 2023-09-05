@@ -1,0 +1,89 @@
+header.primary-header {
+  box-sizing: border-box;
+  display: grid;
+  font-size: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  padding-inline: 1.25ch;
+  width: 100vw;
+}
+header.primary-header > div.branding {
+  align-items: center;
+  display: flex;
+  gap: 1ch;
+  justify-content: flex-start;
+}
+header.primary-header div.logo-container > img.logo {
+  width: 20px;
+}
+header.primary-header div.ham-icon-container {
+  align-self: center;
+  justify-self: end;
+}
+
+header.primary-header div.ham-icon-container nav.primary-nav svg.nav-close-btn, header.primary-header div.ham-icon-container svg.ham-icon {
+  font-size: inherit;
+  width: 2ch;
+  display: none;
+}
+
+header.primary-header div.ham-icon-container nav.primary-nav {
+  transition: transform 1s;
+  transform-origin: right;
+    transform: unset;
+}
+
+header.primary-header div.ham-icon-container nav.primary-nav ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 2ch;
+}
+
+header.primary-header div.ham-icon-container nav.primary-nav ul li {
+  list-style: none;
+}
+header.primary-header div.ham-icon-container nav.primary-nav ul li a{
+  text-decoration: none;
+}
+header.primary-header div.ham-icon-container nav.primary-nav ul li .active{
+  text-decoration: underline;
+  position: relative;
+}
+header.primary-header div.ham-icon-container nav.primary-nav i.nav-close-btn {
+    border-block: 1px solid grey;
+    display: none;
+}
+
+@media screen and (max-width: 601px ){
+    header.primary-header div.ham-icon-container nav.primary-nav i.nav-close-btn, header.primary-header div.ham-icon-container svg.ham-icon{ display: unset; }
+    header.primary-header div.ham-icon-container nav.primary-nav {
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      background-color: rgba(240,240,255,.5);
+      z-index: 60;
+      overflow-x: hidden;
+      position: absolute;
+      right: 0;
+      top: 0;
+      left:  120px;
+      bottom: 0;
+      transform: scaleX(0);
+      display: flex;
+        flex-direction: column;
+    }
+    header.primary-header div.ham-icon-container nav.primary-nav div.close-nav-btn-container  { padding-block: 0.5ch; }
+    header.primary-header div.ham-icon-container nav.primary-nav ul {
+     
+      flex-direction: column;
+     
+    }
+    header.primary-header div.ham-icon-container nav.primary-nav ul li .active::after{
+        content: " <";
+        position: absolute;
+        left: calc(100% + 1ch);
+        top: 0;
+        bottom: 0;
+        right: -2ch;
+    }
+}

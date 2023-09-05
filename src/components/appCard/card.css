@@ -1,0 +1,30 @@
+.card {
+  border-radius: 4ch;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-inline: auto;
+  max-width: 300px;
+  outline: 1px solid grey;
+}
+
+.card > h4.card-title {
+  font-size: 1.75rem;
+  grid-area: 1/2/2/3;
+  place-self: center;
+}
+
+.card .card-desc {
+  grid-area: 2/2/3/3;
+}
+.card .download-link { grid-area: 3/2/4/3; }
+.download-link {
+	background-color: blue;
+	border-radius: 1ch;
+	color: cyan;
+	font-size: 1.25rem;
+	padding: .5ch 1ch;
+	place-self: center;
+	text-decoration: none;
+}
