@@ -9,4 +9,8 @@ Follow this url to the website
 
 I create these apps as hobby. These apps are free use.
 
-While downloading any app from the site or installing that to your device you might encounter errors something like "unknown app, this might contain virus". I ensure you that I do not write any malicious code. If it contain any malicious code then that will be inside the source code the libraries which I use withouting knowning about that malicious code.
+While downloading any app from the site or installing that to your device you might encounter errors something like "unknown app, this might contain virus".
+I ensure you that I do not write any malicious code.
+If it contain any malicious code then that will be inside the source code the libraries which I use withouting knowning about that malicious code.
+
+
