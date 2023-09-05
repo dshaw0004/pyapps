@@ -17,9 +17,10 @@ export default function App() {
     // const res = f.json()
     // console.log(res)
   return (
-    <main>
-        <Header />
-      <Routes>
+<>
+    <main class="main-content">
+ 	<Header/>
+	  <Routes>
       <Route 
           path='/'
           element={<Home/>}
@@ -58,5 +59,6 @@ specific needs.'
           />
       </Routes>
     </main>
+</>
   )
 }

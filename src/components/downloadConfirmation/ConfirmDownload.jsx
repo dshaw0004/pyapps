@@ -1,11 +1,13 @@
 import {NavLink, useLocation, useParams, useNavigate} from 'react-router-dom'
 import { useEffect } from 'react'
-import '../appCard/card.css'
+import '../appCard/card.css';
+import './confirmdownload.css';
 
 function ValidUrl(props){
     return <>
             <p>click <b>download now</b> for starting the download process of {props.id}</p>
             <a href={props.url} className='download-link'>download now</a>
+		<p class="note">This extra page is for ensuring that you didn&apos;t press that download button by mistake.</p>
             </>
 }
 // relocator(`/about/app/${params.id}`)
