@@ -17,3 +17,4 @@ Here is the source code of the apps
 
 1. [codeQRcreator](https://github.com/dshaw0004/codeQRcreator-app)
 1. [Imagic](https://github.com/dshaw0004/imagic)
+1. [PYspammer](https://github.com/dshaw0004/PYspammer)
